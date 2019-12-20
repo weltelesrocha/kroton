@@ -9,8 +9,8 @@ const validateNumberN = (number) => {
 }
 const validateNumberV = (number) => {
     if (!Number.isInteger(number)
-        || number > 8e+8
-        || number < -8e+8) {
+        || number > 10e+8
+        || number < -10e+8) {
         throw new Error(`Invalid number V ${number}`);
     }
 }
